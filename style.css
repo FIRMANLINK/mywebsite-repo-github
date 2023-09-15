@@ -14,7 +14,7 @@
 body {
 
   background-color: #191a1f;
-  height: 630vh;
+  height: 470vh;
 
 }
 
@@ -112,11 +112,13 @@ header {
   padding-top: 10px;
   font-size: 60px;
   color: #c685d6;
+  transition: all .5s ease;
 }
 
 .row a:hover {
   background-color: white;
   color: #9D68C0;
+  transform: scale()101%;
 }
 
 
@@ -195,6 +197,12 @@ header {
   color: #B1B2B7;
   font-weight: 600;
   padding-top: 20px;
+  transition: all .5s ease;
+}
+.galery-3 a:hover {
+  background-color: white;
+  color: #9D68C0;
+  transform: scale()101%;
 }
 
 
@@ -272,6 +280,13 @@ header {
   color: #B1B2B7;
   font-weight: 600;
   padding-top: 20px;
+  transition: all .5s ease;
+}
+
+.button-4 .galery-4 a:hover {
+  background-color: white;
+  color: #9D68C0;
+  transform: scale()101%;
 }
 
 .galery-4 {
@@ -426,7 +441,10 @@ header {
   padding: 5px 0 0 0;
   font-size: 30px;
   border-radius: 50%;
+  transition: all .5s ease;
 }
+
+
 
 .card-6 h4 {
   font-family: Arial, Helvetica, sans-serif;
@@ -699,12 +717,1009 @@ header {
 
 }
 
-@media (min-width:375px) and (max-width: 390px) {}
+@media (min-width:375px) and (max-width: 390px) {
+  /*/ Card Profile /*/
+
+  .card-profile {
+    width: 85%;
+    height: 400px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: transparent;
+    box-shadow: 0 0 0 0;
+  }
+
+
+  .card-profile .text {
+    text-align: center;
+  }
+
+  .text h1 {
+    font-size: 50px;
+    margin-top: 10px;
+    width: 200px;
+    margin-left: 60px;
+    line-height: 50px;
+    font-stretch: normal;
+    margin-top: 20px;
+  }
+
+  .text p {
+    margin: 20px 0 0 60px;
+    line-height: 18px;
+    font-size: 10px;
+    width: 200px;
+  }
+
+  .card-profile .img {
+    margin: 0 0 0 65px;
+  }
+
+  .card-profile .img img {
+    width: 180px;
+    height: auto;
+  }
+
+  .row a {
+    margin-top: 130px;
+    background-color: #3e4352;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    padding-top: 5px;
+    font-size: 50px;
+    color: #c685d6;
+  }
+
+  .row {
+    margin-top: -100px;
+  }
+
+  /*/ Card-Ketiga /*/
+
+  .card-ketiga {
+    width: 85%;
+    margin-top: 250px;
+    height: 650px;
+    background: transparent;
+
+  }
+
+  .text-3 {
+    width: 100%;
+    padding: 20px 0 0 0;
+  }
+
+  .text-3 p {
+    width: 350px;
+  }
+
+  .h3-3 {
+    margin-top: 20px;
+  }
+
+  .card-ketiga .gambar-3 img {
+    width: 250px;
+    height: 270px;
+    
+
+  }
+
+  .card-ketiga .gambar-3 img {
+    margin: 30px 35px 30px 0;
+  }
+
+  .h1-pi {
+    display: none;
+  }
+
+  .h1-ko {
+    display: inline-block;
+  } 
+
+  .text-3 p {
+    font-size: 10px;
+    width: 250px;
+  }
+
+  .momo {
+    display: none;
+  }
+
+  .h1-3 {
+    margin-right: 15px;
+  }
+
+
+  /* card - 4 */
+
+  .text-4 {
+    width: 100%;
+    float: right;
+    padding-top: 10px;
+    text-align: center;
+    padding-right: 21px;
+    margin-right: 20px;
+  }
+
+  
+  
+  .text-4 h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    line-height: 50px;
+    width: 100%;
+  }
+  
+  .text-4 p {
+    width: 530px;
+    font-family: 'Poppins', sans-serif;
+    opacity: 100%;
+    color: #B1B2B7;
+    font-size: 10px;
+    margin-left: 70px;
+    width: 200px;
+  }
+  
+  .text-4 h3 {
+    color: #9892e0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 55px;
+  }
+  
+  .card-keempat {
+    width: 85%;
+    height: 600px;
+    margin-top: -50px;
+    background: transparent;
+  }
+
+  .gambar-4 img {
+    border-radius: 30px;
+    width: 250px;
+    height: 270px;
+    border: 10px solid #c685d6;
+    outline: 10px solid #3e4352;
+    margin: 40px 0 0 28px;
+    float: left;
+    box-shadow: #191a1f 10px 10px 50px;
+  }
+
+  .h1-ko {
+    display: inline-block;
+  }
+
+  .po-po {
+    display: none;
+  }
+
+  .button-4 .galery-4 a {
+    background-color: #3e4352;
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #B1B2B7;
+    font-weight: 600;
+    padding-top: 20px;
+
+  }
+
+  .button-4 {
+    margin-left: 40px;
+  }
 
 
 
 
-@media (min-width:390px) and (max-width: 414px) {}
+
+  /*/ card kelima ?*/
+
+  .card-6 {
+    width: 100%;
+    height: 600px;
+    background: transparent;
+    margin-top: -100px;
+    
+  }
+
+  body {
+    height: auto;
+  }
+
+  .card-6 h3 {
+    color: #9892e0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0 10px 0;
+    text-align: center;
+  }
+  
+  .h1-6 {
+    background: linear-gradient(90deg, #9D68C0, #FC7A7D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+    width: 350px;
+    text-align: center;
+    margin-left: 10px;
+    
+  }
+  
+  .card-6 p {
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 30px;
+    line-height: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #B1B2B7;
+    font-size: 13px;
+    margin-bottom: 30px;
+  }
+  
+  .card-6 .logo {
+    display: flex;
+    justify-content: center;
+  }
+}
 
 
-@media (min-width:414px) and (max-width: 428px) {}
+
+
+@media (min-width:390px) and (max-width: 414px) {
+   /*/ Card Profile /*/
+
+   .card-profile {
+    width: 85%;
+    height: 400px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: transparent;
+    box-shadow: 0 0 0 0;
+  }
+
+
+  .card-profile .text {
+    text-align: center;
+  }
+
+  .text h1 {
+    font-size: 50px;
+    margin-top: 10px;
+    width: 200px;
+    margin-left: 80px;
+    line-height: 50px;
+    font-stretch: normal;
+    margin-top: 20px;
+  }
+
+  .text p {
+    margin: 20px 0 0 80px;
+    line-height: 18px;
+    font-size: 10px;
+    width: 200px;
+  }
+
+  .card-profile .img {
+    margin: 0 0 0 80px;
+  }
+
+  .card-profile .img img {
+    width: 180px;
+    height: auto;
+  }
+
+  .row a {
+    margin-top: 130px;
+    background-color: #3e4352;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    padding-top: 5px;
+    font-size: 50px;
+    color: #c685d6;
+  }
+
+  .row {
+    margin-top: -100px;
+  }
+
+  /*/ Card-Ketiga /*/
+
+  .card-ketiga {
+    width: 85%;
+    margin-top: 250px;
+    height: 650px;
+    background: transparent;
+
+  }
+
+  .text-3 {
+    width: 100%;
+    padding: 20px 0 0 0;
+  }
+
+  .text-3 p {
+    width: 350px;
+  }
+
+  .h3-3 {
+    margin-top: 20px;
+  }
+
+  .card-ketiga .gambar-3 img {
+    width: 250px;
+    height: 270px;
+    
+
+  }
+
+  .card-ketiga .gambar-3 img {
+    margin: 30px 35px 30px 0;
+    position: relative;
+    top: 0;
+    left: -5px;
+  }
+
+  .h1-pi {
+    display: none;
+  }
+
+  .h1-ko {
+    display: inline-block;
+  } 
+
+  .text-3 p {
+    font-size: 10px;
+    width: 250px;
+    margin-left: 50px;
+  }
+
+  .momo {
+    display: none;
+  }
+
+  .h1-3 {
+    margin-right: 15px;
+  }
+
+
+  /* card - 4 */
+
+  .text-4 {
+    width: 100%;
+    float: right;
+    padding-top: 10px;
+    text-align: center;
+    padding-right: 21px;
+    margin-right: 20px;
+  }
+
+  
+  
+  .text-4 h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    line-height: 50px;
+    width: 100%;
+  }
+  
+  .text-4 p {
+    width: 530px;
+    font-family: 'Poppins', sans-serif;
+    opacity: 100%;
+    color: #B1B2B7;
+    font-size: 10px;
+    margin-left: 90px;
+    width: 200px;
+  }
+  
+  .text-4 h3 {
+    color: #9892e0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 55px;
+  }
+  
+  .card-keempat {
+    width: 85%;
+    height: 600px;
+    margin-top: -50px;
+    background: transparent;
+  }
+
+  .gambar-4 img {
+    border-radius: 30px;
+    width: 250px;
+    height: 270px;
+    border: 10px solid #c685d6;
+    outline: 10px solid #3e4352;
+    margin: 40px 0 0 40px;
+    float: left;
+    box-shadow: #191a1f 10px 10px 50px;
+  }
+
+  .h1-ko {
+    display: inline-block;
+  }
+
+  .po-po {
+    display: none;
+  }
+
+  .button-4 .galery-4 a {
+    background-color: #3e4352;
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #B1B2B7;
+    font-weight: 600;
+    padding-top: 20px;
+
+  }
+
+  .button-4 {
+    margin-left: 50px;
+  }
+
+
+
+
+
+  /*/ card kelima ?*/
+
+  .card-6 {
+    width: 100%;
+    height: 600px;
+    background: transparent;
+    margin-top: -100px;
+    
+  }
+
+  body {
+    height: auto;
+  }
+
+  .card-6 h3 {
+    color: #9892e0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0 10px 0;
+    text-align: center;
+  }
+  
+  .h1-6 {
+    background: linear-gradient(90deg, #9D68C0, #FC7A7D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+    width: 350px;
+    text-align: center;
+    margin-right: 50px;
+    
+  }
+  
+  .card-6 p {
+    width: 300px;
+    margin-left: 60px;
+    margin-top: 30px;
+    line-height: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #B1B2B7;
+    font-size: 13px;
+    margin-bottom: 30px;
+  }
+  
+  .card-6 .logo {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+
+@media (min-width:414px) and (max-width: 428px) {
+  /*/ Card Profile /*/
+
+  .card-profile {
+    width: 85%;
+    height: 400px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: transparent;
+    box-shadow: 0 0 0 0;
+  }
+
+
+  .card-profile .text {
+    text-align: center;
+  }
+
+  .text h1 {
+    font-size: 50px;
+    margin-top: 10px;
+    width: 200px;
+    margin-left: 60px;
+    line-height: 50px;
+    font-stretch: normal;
+    margin-top: 20px;
+  }
+
+  .text p {
+    margin: 20px 0 0 60px;
+    line-height: 18px;
+    font-size: 10px;
+    width: 200px;
+  }
+
+  .card-profile .img {
+    margin: 0 0 0 65px;
+  }
+
+  .card-profile .img img {
+    width: 180px;
+    height: auto;
+  }
+
+  .row a {
+    margin-top: 130px;
+    background-color: #3e4352;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    padding-top: 5px;
+    font-size: 50px;
+    color: #c685d6;
+  }
+
+  .row {
+    margin-top: -100px;
+  }
+
+  /*/ Card-Ketiga /*/
+
+  .card-ketiga {
+    width: 85%;
+    margin-top: 250px;
+    height: 650px;
+    background: transparent;
+
+  }
+
+  .text-3 {
+    width: 100%;
+    padding: 20px 0 0 0;
+  }
+
+  .text-3 p {
+    width: 350px;
+  }
+
+  .h3-3 {
+    margin-top: 20px;
+  }
+
+  .card-ketiga .gambar-3 img {
+    width: 250px;
+    height: 270px;
+    
+
+  }
+
+  .card-ketiga .gambar-3 img {
+    margin: 30px 35px 30px 0;
+  }
+
+  .h1-pi {
+    display: none;
+  }
+
+  .h1-ko {
+    display: inline-block;
+  } 
+
+  .text-3 p {
+    font-size: 10px;
+    width: 250px;
+    margin-left: 40px;
+  }
+
+  .momo {
+    display: none;
+  }
+
+  .h1-3 {
+    margin-right: 15px;
+  }
+
+
+  /* card - 4 */
+
+  .text-4 {
+    width: 100%;
+    float: right;
+    padding-top: 10px;
+    text-align: center;
+    padding-right: 21px;
+    margin-right: 20px;
+  }
+
+  
+  
+  .text-4 h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    line-height: 50px;
+    width: 100%;
+  }
+  
+  .text-4 p {
+    width: 530px;
+    font-family: 'Poppins', sans-serif;
+    opacity: 100%;
+    color: #B1B2B7;
+    font-size: 10px;
+    margin-left: 90px;
+    width: 200px;
+  }
+  
+  .text-4 h3 {
+    color: #9892e0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 55px;
+  }
+  
+  .card-keempat {
+    width: 85%;
+    height: 600px;
+    margin-top: -50px;
+    background: transparent;
+  }
+
+  .gambar-4 img {
+    border-radius: 30px;
+    width: 250px;
+    height: 270px;
+    border: 10px solid #c685d6;
+    outline: 10px solid #3e4352;
+    margin: 40px 0 0 40px;
+    float: left;
+    box-shadow: #191a1f 10px 10px 50px;
+  }
+
+  .h1-ko {
+    display: inline-block;
+  }
+
+  .po-po {
+    display: none;
+  }
+
+  .button-4 .galery-4 a {
+    background-color: #3e4352;
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #B1B2B7;
+    font-weight: 600;
+    padding-top: 20px;
+
+  }
+
+  .button-4 {
+    margin-left: 50px;
+  }
+
+
+
+
+
+  /*/ card kelima ?*/
+
+  .card-6 {
+    width: 100%;
+    height: 600px;
+    background: transparent;
+    margin-top: -100px;
+    
+  }
+
+  body {
+    height: auto;
+  }
+
+  .card-6 h3 {
+    color: #9892e0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0 10px 0;
+    text-align: center;
+  }
+  
+  .h1-6 {
+    background: linear-gradient(90deg, #9D68C0, #FC7A7D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+    width: 350px;
+    text-align: center;
+    margin-left: 10px;
+    
+  }
+  
+  .card-6 p {
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 30px;
+    line-height: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #B1B2B7;
+    font-size: 13px;
+    margin-bottom: 30px;
+  }
+  
+  .card-6 .logo {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+
+@media (min-width:428px) and (max-width: 600px) {
+  /*/ Card Profile /*/
+
+  .card-profile {
+    width: 85%;
+    height: 400px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: transparent;
+    box-shadow: 0 0 0 0;
+  }
+
+
+  .card-profile .text {
+    text-align: center;
+  }
+
+  .text h1 {
+    font-size: 50px;
+    margin-top: 10px;
+    width: 200px;
+    margin-left: 60px;
+    line-height: 50px;
+    font-stretch: normal;
+    margin-top: 20px;
+  }
+
+  .text p {
+    margin: 20px 0 0 60px;
+    line-height: 18px;
+    font-size: 10px;
+    width: 200px;
+  }
+
+  .card-profile .img {
+    margin: 0 0 0 65px;
+  }
+
+  .card-profile .img img {
+    width: 180px;
+    height: auto;
+  }
+
+  .row a {
+    margin-top: 130px;
+    background-color: #3e4352;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    padding-top: 5px;
+    font-size: 50px;
+    color: #c685d6;
+  }
+
+  .row {
+    margin-top: -100px;
+  }
+
+  /*/ Card-Ketiga /*/
+
+  .card-ketiga {
+    width: 85%;
+    margin-top: 250px;
+    height: 650px;
+    background: transparent;
+
+  }
+
+  .text-3 {
+    width: 100%;
+    padding: 20px 0 0 0;
+  }
+
+  .text-3 p {
+    width: 350px;
+  }
+
+  .h3-3 {
+    margin-top: 20px;
+  }
+
+  .card-ketiga .gambar-3 img {
+    width: 250px;
+    height: 270px;
+    
+
+  }
+
+  .card-ketiga .gambar-3 img {
+    margin: 30px 35px 30px 0;
+  }
+
+  .h1-pi {
+    display: none;
+  }
+
+  .h1-ko {
+    display: inline-block;
+  } 
+
+  .text-3 p {
+    font-size: 10px;
+    width: 250px;
+    margin-left: 40px;
+  }
+
+  .momo {
+    display: none;
+  }
+
+  .h1-3 {
+    margin-right: 15px;
+  }
+
+
+  /* card - 4 */
+
+  .text-4 {
+    width: 100%;
+    float: right;
+    padding-top: 10px;
+    text-align: center;
+    padding-right: 21px;
+    margin-right: 20px;
+  }
+
+  
+  
+  .text-4 h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    line-height: 50px;
+    width: 100%;
+  }
+  
+  .text-4 p {
+    width: 530px;
+    font-family: 'Poppins', sans-serif;
+    opacity: 100%;
+    color: #B1B2B7;
+    font-size: 10px;
+    margin-left: 90px;
+    width: 200px;
+  }
+  
+  .text-4 h3 {
+    color: #9892e0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 55px;
+  }
+  
+  .card-keempat {
+    width: 85%;
+    height: 600px;
+    margin-top: -50px;
+    background: transparent;
+  }
+
+  .gambar-4 img {
+    border-radius: 30px;
+    width: 250px;
+    height: 270px;
+    border: 10px solid #c685d6;
+    outline: 10px solid #3e4352;
+    margin: 40px 0 0 40px;
+    float: left;
+    box-shadow: #191a1f 10px 10px 50px;
+  }
+
+  .h1-ko {
+    display: inline-block;
+  }
+
+  .po-po {
+    display: none;
+  }
+
+  .button-4 .galery-4 a {
+    background-color: #3e4352;
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #B1B2B7;
+    font-weight: 600;
+    padding-top: 20px;
+
+  }
+
+  .button-4 {
+    margin-left: 50px;
+  }
+
+
+
+
+
+  /*/ card kelima ?*/
+
+  .card-6 {
+    width: 100%;
+    height: 600px;
+    background: transparent;
+    margin-top: -100px;
+    
+  }
+
+  body {
+    height: auto;
+  }
+
+  .card-6 h3 {
+    color: #9892e0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0 10px 0;
+    text-align: center;
+  }
+  
+  .h1-6 {
+    background: linear-gradient(90deg, #9D68C0, #FC7A7D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+    width: 350px;
+    text-align: center;
+    margin-left: 10px;
+    
+  }
+  
+  .card-6 p {
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 30px;
+    line-height: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #B1B2B7;
+    font-size: 13px;
+    margin-bottom: 30px;
+  }
+  
+  .card-6 .logo {
+    display: flex;
+    justify-content: center;
+  }
+}
